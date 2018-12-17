@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="https://lh3.googleusercontent.com/-T-ouPHSaeWU/Wo4RZJ8AVdI/AAAAAAAAAD4/PfGFXFCYKAQlNQBEPDjI93eOur0xEZG2QCEwYBhgL/w140-h140-p/cca.png" sizes="16x16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+	background-color: light gray;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid gray;
+  border-bottom: 16px solid blue;
+  border-left: 16px solid gray;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+h1 {
+    text-align: center;
+
+}
+
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+<h1 id="loaderw"> Welcome to Accuracy </h1>
+<div id="loader"></div>
+
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="icon" href="https://lh3.googleusercontent.com/-T-ouPHSaeWU/Wo4RZJ8AVdI/AAAAAAAAAD4/PfGFXFCYKAQlNQBEPDjI93eOur0xEZG2QCEwYBhgL/w140-h140-p/cca.png" sizes="16x16">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Accuracy Accounting</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/fastyle.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Accuracy</h1>
+                        <h3>Accounting</h3>
+                        <hr class="intro-divider">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+			    <ul class="list-inline intro-social-buttons"></ul>
+
+        <a href="mailto:accuracyci@gmail.com" class="fa fa-envelope-o"></a>
+<a href="https://twitter.com/accuracyci" class="fa fa-twitter"></a>
+
+<a href="https://www.youtube.com/channel/UCGT8AW_iCwTYM7fq1yemWnA?S" class="fa fa-youtube"></a>
+<style>
+
+.fa {
+    display: inline;
+    padding: 1vw;
+    font-size: 2vw;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 100vw 1vw;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+  .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-envelope-o {
+  background: #cc2626;
+  color: white;
+}
+
+ @media only screen and (max-aspect-ratio: 1.6) {
+    .fa{display: inline;
+    padding: 4vw;
+    font-size: 4vw;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1vw 2vw;
+  border-radius: 50%;}
+
+  }
+</style>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+	    <!--dropdown-->
+  <h2 id="thanky"> </h2>
+
+	<!--/dropdown-->
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Services We Offer</h2>
+                    <p class="lead">Transactions, Disputes, Crises...</p>
+                    <form action="pages/services.html">
+                    <button type="submit" class="button button5"style="vertical-align:middle"><span>Read more</span></button>
+                  </form>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/service.jpg" alt="Job Opening Door" style="width:500px;height:400px;">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Our Staff Information</h2>
+                    <p class="lead">Here at Accuracy we have a very diverse group of Accuracians.</p>
+                    <form action="pages/staff.html">
+                    <button type="submit" class="button button5"style="vertical-align:middle"><span>Read more</span></button>
+                  </form>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/staff.jpg" alt="follow-ups">
+
+                  </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Customer Service</h2>
+                    <p class="lead">Use this page to find out about our Customer Service Information.</p>
+                    <form action="pages/customerservice.html">
+                    <button type="submit" class="button button5"style="vertical-align:middle"><span>Read more</span></button>
+                  </form>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/customerservice.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /. 4th Container -->
+		<div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Mission Statement and Company History</h2>
+                    <p class="lead">Use this page to find out about our Mission Statement and our Company History.</p>
+                    <form action="pages/mission.html">
+                    <button type="submit" class="button button5"style="vertical-align:middle"><span>Read more</span></button>
+                  </form>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/mission.jpg" alt="follow up">
+
+                  </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+		<div class="content-section-a">
+
+				<div class="container">
+
+						<div class="row">
+								<div class="col-lg-5 col-sm-6">
+										<hr class="section-heading-spacer">
+										<div class="clearfix"></div>
+										<h2 class="section-heading">Pricing</h2>
+										<p class="lead">This page is for find out our pricing and rates.</p>
+										<form action="pages/pricing.html">
+										<button type="submit" class="button button5"style="vertical-align:middle"><span>Read more</span></button>
+									</form>
+								</div>
+								<div class="col-lg-5 col-lg-offset-2 col-sm-6">
+										<img class="img-responsive" src="img/pricing.jpg" alt="">
+
+									</div>
+						</div>
+
+				</div>
+				<!-- /.container -->
+
+		</div>
+		<!-- /.content-section-b -->
+
+
+
+<!-- /. 5th Container -->
+
+    <br>
+    <a name="Developers"></a>
+    <h3> Miscellaneous </h3>
+     <div class="banner">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+
+    		<div class="col-lg-3 col-lg-6">
+          <!-- Christian -->
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                    <div class="card">
+                       <div class="container3">
+  <img class="img img5" id="hiy03" src="img/Christian1.jpg">
+  <div class="middle"
+        <form action="mailto:Accuracyci@gmail.com">
+      <button type="submit" class="button button5"style="vertical-align:middle"><span>Email</span></button>
+      </form>
+   <form action="Christian.html">
+      <button type="submit" class="button button5"style="vertical-align:middle"><span>Christian</span></button>
+      </form>
+  </div>
+</div>
+                        <div class="card-block">
+				<form action="Christian.html">
+     <button type="submit" class="button button5"style="vertical-align:middle"><span>Christian</span></button>
+</form>
+
+                            <h5 class="text-bold">Christian Ihekweazu</h5>
+                           <a id="none" href="mailto:Accuracyci@gmail.com">
+			       <h5>Email:Accuracyci@gmail.com</h5></a>
+
+				    </div>
+                    </div>
+                </div>
+                 <!-- Cameron -->
+
+
+		<!--developer Page-->
+            <form action="SiteMap.html">
+                    <button type="submit" id="button" class="button button5"style="vertical-align:middle"><span>Site Map</span></button>
+                  </form>
+             <br>
+	<!--Copyright Page-->
+		  <form action="Copyright_Page.html">
+                    <button type="submit" id="button"class="button button5"style="vertical-align:middle"><span>Copyright Page</span></button>
+                  </form>
+									<br>
+
+
+							<form action="FAQs.html">
+						<button type="submit" id="button"class="button button5"style="vertical-align:middle"><span>Frequently Asked Questions</span></button>
+					</form>
+                                  <!-- Developers ^ -->
+                    </div>
+                </div>
+
+            </div>
+
+    	</div>
+    </div>
+
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+<style>
+	#none{
+text-decoration: none;
+color: black;
+}
+#button{
+border-radius: 20px;
+	}
+h1 {
+  color:black;
+  font-weight:bold;
+  font-family: "Arial Black", Times, serif;
+}
+h5 {color:black;
+font-weight:bold;
+font-family: "Arial Black", Times, serif;}
+h3 {
+  color:black;
+  font-weight:bold;
+  font-family: "Arial Black", Times, serif;
+}
+	#thanky{
+		backgorund-color: #e7e7e7 ;
+
+	}
+.button5 {background-color: #008CBA;
+  border: none;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: all 0.5s;
+    cursor: pointer;} /* Blue Buttons*/
+    .button5:hover {
+      background-color:#005a77
+    }
+    .button5:active {
+  background-color: #005a77;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+    .button5 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button5 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button5:hover span {
+  padding-right: 25px;
+}
+.button5:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+	.img5 {
+  height: 200px;
+}
+	img {
+    transition: .5s ease;
+    border-radius: 10px;
+    height: auto;
+}
+
+
+div.container {
+      display:inline-block;
+    }
+    .navbar-default {
+
+
+	    background: radial-gradient(#e2e2e2 25%, #e2e2e2 45%, #c4c4c4 90%);
+    }
+    h2 {color:black;
+    font-weight:bold;
+    text-align: center;
+    font-family: "Arial Black", Times, serif;}
+/*blur*/
+	.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container3:hover #hiy03 {
+  opacity: 0.8;
+}
+.container2:hover #hiy02 {
+  opacity: 0.8;
+}
+
+.container1:hover #hiy01 {
+  opacity: 0.8;
+}
+.container3:hover .middle {
+  opacity: 1;
+}
+	.container2:hover .middle {
+  opacity: 1;
+}
+	.container1:hover .middle {
+  opacity: 1;
+}
+	/*new*/
+
+#thanksd:link {
+    text-decoration: none;
+    color:black;
+}
+
+#thanksd:visited {
+    text-decoration: none;
+    color:black;
+}
+
+
+
+#thanksd:active {
+    text-decoration: none;
+}
+  .panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    color: grey;
+    cursor: pointer;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\e080";
+  cursor: pointer;
+}
+#thanksd{
+  color:black;
+    font-weight:bold;
+    text-align: center;
+    font-family: "Arial Black", Times, serif
+
+}
+
+</style>
+
+		<!-- Bottom Copyright -->
+
+</html>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 1500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+  document.getElementById("loaderw").style.display = "none";
+}
+</script>
+
+</body>
+</html>
