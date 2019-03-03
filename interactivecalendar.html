@@ -108,3 +108,15 @@
 
 	});
   </script>
+  <button onclick="myFunction()">Click to Schedule an Appointment!</button>
+
+<p id="appointment"></p>
+  <script>
+function myFunction() {
+    var appointment = prompt("Please enter your preferred date and what services you would like.", "March 8, 2019");
+    if (appointment != null) {
+        document.getElementById("appointment").innerHTML =
+        appointment + "Thanks for making a request for an appointment, we will review it and add it to our calendar at a later date.";
+    }
+}
+</script>
